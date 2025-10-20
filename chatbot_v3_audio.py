@@ -5,7 +5,7 @@ from playsound import playsound
 
 # --- CONFIGURATION ---
 # IMPORTANT: Paste your API key here
-API_KEY = "AIzaSyDPCnvf72QOpDfG0LGLzZdQKZ2OQDAgu0A"
+API_KEY = st.secrets["google_ai"]["api_key"]
 
 # This is our NEW "Character Sheet," built from your research.
 PERSONA_PROMPT = """

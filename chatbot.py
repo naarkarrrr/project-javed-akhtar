@@ -5,8 +5,7 @@ import os
 # IMPORTANT: Paste your API key here
 # For better security, you can set this as an environment variable
 # but for our first test, pasting it is fine.
-API_KEY = "AIzaSyDPCnvf72QOpDfG0LGLzZdQKZ2OQDAgu0A"
-
+API_KEY = st.secrets["google_ai"]["api_key"]
 # This is our "Character Sheet."
 # We will build this out with all our research.
 # For now, it's just a simple instruction.
